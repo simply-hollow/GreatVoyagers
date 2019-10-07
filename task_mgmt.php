@@ -5,7 +5,7 @@ include('./includes/header.php');
 ?>
 <body>
 <div class="container-scroller">
-  <!-- partial top nav-bar -->
+  <!-- partial top nav-bar-->
   <?php
 
     include('./includes/nav.php');
@@ -14,6 +14,7 @@ include('./includes/header.php');
   <!-- partial -->
 
   <div class="container-fluid page-body-wrapper">
+
     <!-- partial:partials/_sidebar.html -->
     <?php
 
@@ -27,8 +28,8 @@ include('./includes/header.php');
         <div class="page-header">
           <h3 class="page-title">
             <span class="page-title-icon bg-gradient-primary text-white mr-2">
-              <i class="mdi mdi-home"></i>
-            </span> Dashboard </h3>
+              <i class="mdi mdi-chart-bar"></i>
+            </span> Task Management </h3>
           <nav aria-label="breadcrumb">
             <ul class="breadcrumb">
               <li class="breadcrumb-item active" aria-current="page">
@@ -57,12 +58,6 @@ include('./includes/header.php');
             </div>
           </div>
         </div>
-        <?php
-
-          include('./includes/dashboard-body/recents-task.php');
-          include('./includes/dashboard-body/project-status.php');
-
-        ?>
       </div>
       <!-- content-wrapper ends -->
 
@@ -73,7 +68,7 @@ include('./includes/header.php');
 
       ?>
       <!-- partial -->
-      
+
     </div>
     <!-- main-panel ends -->
   </div>
