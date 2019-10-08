@@ -5,7 +5,7 @@
       <img src="./includes/logo.jpeg" alt="logo" style="width: 10vw; height: 5vw;" />
     </a>
     <a class="navbar-brand brand-logo-mini" href="index.php">
-      <img src="./includes/logo.jpeg" alt="logo" style="width: 5vw; height: 3vw;" />
+      <img src="./includes/mini-logo.jpg" alt="logo" style="width: 5vw; height: 3vw;" />
     </a>
   </div>
   <div class="navbar-menu-wrapper d-flex align-items-stretch">

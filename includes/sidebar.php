@@ -15,13 +15,13 @@
     <li class="nav-item">
       <a class="nav-link" href="customer.php">
         <span class="menu-title">Customer Registration</span>
-        <i class="mdi mdi-contacts menu-icon"></i>
+        <i class="mdi mdi-library-plus menu-icon"></i>
       </a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="employee.php">
         <span class="menu-title">Employee Registration</span>
-        <i class="mdi mdi-contacts menu-icon"></i>
+        <i class="mdi mdi-library-plus menu-icon"></i>
       </a>
     </li>
     <li class="nav-item">

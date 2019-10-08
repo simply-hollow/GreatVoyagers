@@ -41,7 +41,9 @@ include('./includes/header.php');
           <div class="col-md-6 stretch-card grid-margin">
             <div class="card bg-gradient-info card-img-holder text-white">
               <div class="card-body">
-                <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                <a href="#">
+                  <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                </a>
                 <h4 class="font-weight-normal mb-3">Weekly Sales<i class="mdi mdi-chart-line mdi-24px float-right"></i>
                 </h4>
               </div>
@@ -50,9 +52,12 @@ include('./includes/header.php');
           <div class="col-md-6 stretch-card grid-margin">
             <div class="card bg-gradient-dark card-img-holder text-white">
               <div class="card-body">
-                <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
-                <h4 class="font-weight-normal mb-3">Visitors Online<i class="mdi mdi-diamond mdi-24px float-right"></i>
-                </h4>
+                  <a href="#">
+                    <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
+                  </a>
+                  <h4 class="font-weight-normal mb-3">
+                    Visitors Online<i class="mdi mdi-diamond mdi-24px float-right"></i>
+                  </h4>
               </div>
             </div>
           </div>
