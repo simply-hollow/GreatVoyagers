@@ -40,7 +40,7 @@ include('./includes/header.php');
         </div>
         <div class="row">
           <?php
-              include('./includes/taskgeneration/table.php');
+              include('./includes/taskmgmt/table.php');
           ?>
         </div>
       </div>
