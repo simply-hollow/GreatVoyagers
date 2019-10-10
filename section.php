@@ -62,6 +62,9 @@ include('./includes/header.php');
             </div>
           </div>
         </div>
+        <div class="row tables">
+          
+        </div>
       </div>
       <!-- content-wrapper ends -->
 
@@ -85,14 +88,14 @@ include('./includes/header.php');
   <script type="text/javascript">
     $(document).ready(function(){
         $(".upcoming-link").click(function(){
-            $("div.form").load("includes/section/upcoming.php");
+            $("div.tables").load("includes/section/upcoming.php");
         });
     });
   </script>  
   <script type="text/javascript">
     $(document).ready(function(){
         $(".close-link").click(function(){
-            $("div.form").load("includes/section/close.php");
+            $("div.tables").load("includes/section/close.php");
         });
     });
   </script>  
