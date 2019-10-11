@@ -3,7 +3,8 @@
 <div class="card">
 <div class="card-body">
 <form class="form-sample">
-    <div class="row">
+    <p style="color:red;" > * Every Field is Mandatory </p>
+     <div class="row">
       <div class="col-md-10 ">
         <div class="custom-file mb-3">
           <input type="file" class="custom-file-input form-control" id="customFile" name="filename" required>
@@ -20,7 +21,11 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">First Name</label>
           <div class="col-sm-9">
+<<<<<<< HEAD
             <input type="text" class="form-control" required/>
+=======
+            <input type="text" class="form-control"  placeholder="Enter First Name" required/>
+>>>>>>> 45dfdff13df17b92c236c9ca2fd5250ef50e2b81
           </div>
         </div>
       </div>
@@ -28,7 +33,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Last Name</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control"  placeholder="Enter Last Name" required/>
           </div>
         </div>
       </div>
@@ -38,7 +43,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Father's Name</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" placeholder="Enter Father's Name" required/>
           </div>
         </div>
       </div>
@@ -46,7 +51,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Mother's Name</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" placeholder="Enter Mother's Name" required/>
           </div>
         </div>
       </div>
@@ -56,7 +61,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Phone No.</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" placeholder="Enter Phone No."  required/>
           </div>
         </div>
       </div>
@@ -64,7 +69,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Email Id</label>
           <div class="col-sm-9">
-            <input type="Email" class="form-control" />
+            <input type="Email" class="form-control"  placeholder="Enter Email Id" required/>
           </div>
         </div>
       </div>
@@ -74,7 +79,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Category</label>
           <div class="col-sm-9">
-            <select class="form-control">
+            <select class="form-control"  >
               <option>General</option>
               <option>OBC</option>
               <option>SC/ST</option>
@@ -86,7 +91,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Date of Birth</label>
           <div class="col-sm-9">
-            <input  type="date" class="form-control"/>
+            <input  type="date" class="form-control" required/>
           </div>
         </div>
       </div>
@@ -98,19 +103,29 @@
           <div class="col-sm-3">
             <div class="form-check form-check-primary">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="Male" checked > Male </label>
+<<<<<<< HEAD
+=======
+                <input type="radio" class="form-check-input" name="Male" id="membershipRadios1" value="Male" checked> Male </label>
+>>>>>>> 45dfdff13df17b92c236c9ca2fd5250ef50e2b81
             </div>
           </div>
           <div class="col-sm-3">
             <div class="form-check form-check-primary">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="Others" > Others</label>
+<<<<<<< HEAD
+=======
+                <input type="radio" class="form-check-input" name="Female" id="membershipRadios1" value="Female" > Female</label>
+>>>>>>> 45dfdff13df17b92c236c9ca2fd5250ef50e2b81
             </div>
           </div>
           <div class="col-sm-3">
             <div class="form-check form-check-primary">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios2" value="Female"> Female </label>
+<<<<<<< HEAD
+       
+=======
+                <input type="radio" class="form-check-input" name="Others" id="membershipRadios2" value="Others"> Others </label>
+>>>>>>> 45dfdff13df17b92c236c9ca2fd5250ef50e2b81
             </div>
           </div>
         </div>
@@ -119,7 +134,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Aadhar No.</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control"  placeholder="Enter twelve Digit Aadhar No." required/>
           </div>
         </div>
       </div>
@@ -129,20 +144,21 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">PanCard No.</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
-          </div>
+            <input type="text" class="form-control"  placeholder="Enter PanCard No." required/>
+            </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Passport No.</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" placeholder="Enter Passport No." required/>
           </div>
         </div>
       </div>
     </div>
-    <p class="card-description"> Address </p>
+    
+    <p class="card-description" align="center"> Address </p>
     
     <div class="row">
     <div class="col-md-6">
@@ -163,7 +179,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">State</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" placeholder="Enter State"  required/>
           </div>
         </div>
       </div>
@@ -173,7 +189,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">City</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" placeholder="Enter City" required/>
           </div>
         </div>
       </div>
@@ -181,7 +197,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Postcode</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" placeholder="Enter Postal Code"  required/>
           </div>
         </div>
       </div>
@@ -191,7 +207,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Address 1</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" placeholder="Enter permanent Address" required/>
           </div>
         </div>
       </div>
@@ -199,7 +215,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Address 2</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" placeholder="Enter Address" required/>
           </div>
         </div>
       </div>
