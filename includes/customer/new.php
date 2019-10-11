@@ -21,11 +21,8 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">First Name</label>
           <div class="col-sm-9">
-<<<<<<< HEAD
             <input type="text" class="form-control" required/>
-=======
             <input type="text" class="form-control"  placeholder="Enter First Name" required/>
->>>>>>> 45dfdff13df17b92c236c9ca2fd5250ef50e2b81
           </div>
         </div>
       </div>
@@ -103,29 +100,19 @@
           <div class="col-sm-3">
             <div class="form-check form-check-primary">
               <label class="form-check-label">
-<<<<<<< HEAD
-=======
                 <input type="radio" class="form-check-input" name="Male" id="membershipRadios1" value="Male" checked> Male </label>
->>>>>>> 45dfdff13df17b92c236c9ca2fd5250ef50e2b81
             </div>
           </div>
           <div class="col-sm-3">
             <div class="form-check form-check-primary">
               <label class="form-check-label">
-<<<<<<< HEAD
-=======
                 <input type="radio" class="form-check-input" name="Female" id="membershipRadios1" value="Female" > Female</label>
->>>>>>> 45dfdff13df17b92c236c9ca2fd5250ef50e2b81
             </div>
           </div>
           <div class="col-sm-3">
             <div class="form-check form-check-primary">
               <label class="form-check-label">
-<<<<<<< HEAD
-       
-=======
                 <input type="radio" class="form-check-input" name="Others" id="membershipRadios2" value="Others"> Others </label>
->>>>>>> 45dfdff13df17b92c236c9ca2fd5250ef50e2b81
             </div>
           </div>
         </div>
