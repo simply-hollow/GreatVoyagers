@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-md-10 ">
         <div class="custom-file mb-3">
-          <input type="file" class="custom-file-input form-control" id="customFile" name="filename">
+          <input type="file" class="custom-file-input form-control" id="customFile" name="filename" required>
           <label class="custom-file-label" for="customFile">Choose file</label>
         </div>
       </div>
@@ -20,7 +20,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">First Name</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" required/>
           </div>
         </div>
       </div>
@@ -96,21 +96,21 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Gender</label>
           <div class="col-sm-3">
-            <div class="form-check">
+            <div class="form-check form-check-primary">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="" checked> Male </label>
+                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="Male" checked > Male </label>
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="form-check">
+            <div class="form-check form-check-primary">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="" > Others</label>
+                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="Others" > Others</label>
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="form-check">
+            <div class="form-check form-check-primary">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios2" value="option2"> Female </label>
+                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios2" value="Female"> Female </label>
             </div>
           </div>
         </div>
