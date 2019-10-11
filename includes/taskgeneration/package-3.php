@@ -7,7 +7,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Leaving From</label>
           <div class="col-sm-9">
-            <select class="form-control">
+            <select class="form-control" required>
               <option>Lucknow</option>
               <option>Delhi</option>
               <option>Gorakhpur</option>
@@ -22,7 +22,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Going To</label>
           <div class="col-sm-9">
-            <select class="form-control">
+            <select class="form-control" required>
               <option>India</option>
               <option>America</option>
               <option>paris</option>
@@ -41,8 +41,8 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Departure</label>
           <div class="col-sm-9">
-            <input type="date" name="bday" max="3000-12-31" 
-              min="1000-01-01" class="form-control">
+            <input type="date" name="bday" placeholder="DD/MM/YYYY" max="3000-12-31" 
+              min="1000-01-01" class="form-control" required>
           </div>
         </div>
       </div>
@@ -50,7 +50,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">No of Taxi</label>
           <div class="col-sm-9">
-            <select name="night" class="form-control ">
+            <select name="night" class="form-control" required>
              <option>1</option>
              <option>2</option>
              <option>3</option>

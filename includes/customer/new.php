@@ -3,9 +3,13 @@
 <div class="card">
 <div class="card-body">
 <form class="form-sample">
-    <p style="color:red;" > * Every Field is Mandatory </p>
+    <p style="color:red;" > * Every Field is Mandatory. Kindly fill in all the details.</p>
+    <center>
+      <img src="includes/blank1.png" alt="blank profile image" style="height: 35vh;width: 17vw;">
+    </center>
+    <br>
      <div class="row">
-      <div class="col-md-10 ">
+      <div class="col-md-12 ">
         <div class="custom-file mb-3">
           <input type="file" class="custom-file-input form-control" id="customFile" name="filename" required>
           <label class="custom-file-label" for="customFile">Choose file</label>
@@ -21,7 +25,6 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">First Name</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" required/>
             <input type="text" class="form-control"  placeholder="Enter First Name" required/>
           </div>
         </div>
@@ -76,7 +79,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Category</label>
           <div class="col-sm-9">
-            <select class="form-control"  >
+            <select class="form-control" required>
               <option>General</option>
               <option>OBC</option>
               <option>SC/ST</option>
@@ -98,19 +101,19 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Gender</label>
           <div class="col-sm-3">
-            <div class="form-check form-check-primary">
+            <div class="form-check form-check-info">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="Male" id="membershipRadios1" value="Male" checked> Male </label>
+                <input type="radio" class="form-check-input" name="Male" id="membershipRadios1" value="Male" required> Male </label>
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="form-check form-check-primary">
+            <div class="form-check form-check-info">
               <label class="form-check-label">
                 <input type="radio" class="form-check-input" name="Female" id="membershipRadios1" value="Female" > Female</label>
             </div>
           </div>
           <div class="col-sm-3">
-            <div class="form-check form-check-primary">
+            <div class="form-check form-check-info">
               <label class="form-check-label">
                 <input type="radio" class="form-check-input" name="Others" id="membershipRadios2" value="Others"> Others </label>
             </div>
@@ -152,7 +155,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Country</label>
           <div class="col-sm-9">
-            <select class="form-control">
+            <select class="form-control" required>
             <option>India</option>
               <option>America</option>
               <option>Italy</option>
