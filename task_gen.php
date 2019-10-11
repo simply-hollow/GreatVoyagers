@@ -49,7 +49,7 @@ include('./includes/header.php');
                   <a href="#" class="dropdown-item package1">Visa Only</a>
                   <a href="#" class="dropdown-item package2">Hotel Only</a>
                   <a href="#" class="dropdown-item package3">Cab only</a>
-                  <a href="#" class="dropdown-item package3">Flight Only</a>
+                  <a href="#" class="dropdown-item package4">Flight Only</a>
                 </div>
               </div>
             </div>
