@@ -5,18 +5,30 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Country</label>
+          <label class="col-sm-3 col-form-label">Customer ID</label>
+          <div class="col-sm-9">
+            <input type="text" placeholder="Enter Customer Id" class="form-control" required/>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Nationality</label>
           <div class="col-sm-9">
             <select class="form-control" required>
               <option>India</option>
-              <option>America</option>
-              <option>paris</option>
-              <option>Bangkok</option>
-              <option>Singapur</option>
-              <option>Indonesia</option>
-              <option>London</option>
-              <option>UK</option>
-            </select>
+              <option>Kazakhstan</option>
+            </select> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Country</label>
+          <div class="col-sm-9">     
+            <input type="text" placeholder="Enter Country Name" class="form-control" required/>
           </div>
         </div>
       </div>
@@ -24,14 +36,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">City</label>
           <div class="col-sm-9">
-           <select class="form-control" required>
-              <option>Lucknow</option>
-              <option>Surrey</option>
-              <option>Vancouver</option>
-              <option>Patiala</option>
-              <option>Nainital</option>
-              <option>Vanaras</option>
-            </select>
+            <input type="text" placeholder="Enter City Name" class="form-control" required/>
           </div>
         </div>
       </div>
@@ -59,72 +64,47 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Nights</label>
+          <label class="col-sm-3 col-form-label"> No of Nights</label>
           <div class="col-sm-9">
-            <select name="night" class="form-control" required>
-             <option>1</option>
-             <option>2</option>
-             <option>3</option>
-             <option>4</option>
-             <option>5</option>
-             <option>6</option>
-             <option>7</option>
-             <option>8</option>
-             <option>9</option>
-             <option>10</option>
-          </select>
+             <input type="number" class="form-control" required/>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Members</label>
+          <label class="col-sm-3 col-form-label">No of Rooms</label>
           <div class="col-sm-9">
-            <select name="night" class="form-control" required>
-             <option value="volvo">1</option>
-             <option value="volvo">2</option>
-             <option value="volvo">3</option>
-             <option value="volvo">4</option>
-             <option value="volvo">5</option>
-           </select>
+            <input type="number" class="form-control" required/>
+          </div>
+        </div>
       </div>
-      </div>
-    </div>
   </div>
     <div class="row">
-      <div class="col-md-6">
+     <div class="col-md-4">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Nationality</label>
-          <div class="col-sm-9">
-            <select class="form-control" required>
-              <option>India</option>
-              <option>America</option>
-              <option>paris</option>
-              <option>Bangkok</option>
-              <option>Singapur</option>
-              <option>Indonesia</option>
-              <option>London</option>
-              <option>UK</option>
-            </select> 
+          <label class="col-sm-3 col-form-label"> No of PAX.Adults</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" required/>
           </div>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-4">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Room</label>
-          <div class="col-sm-9">
-           <select name="night" class="form-control" required>
-             <option>1</option>
-             <option>2</option>
-             <option>3</option>
-             <option>4</option>
-             <option>5</option>
-             <option>6</option>
-             <option>7</option>
-           </select>
+          <label class="col-sm-3 col-form-label">Child</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" required/>
           </div>
         </div>
       </div>
+      <div class="col-md-4">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Infants</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" required/>
+          </div>
+        </div>
+      </div> 
+      
     </div>
     <div class="row">
       <div class="col-md-6">

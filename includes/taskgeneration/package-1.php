@@ -5,6 +5,16 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Customer ID</label>
+          <div class="col-sm-9">
+            <input type="text" placeholder="Enter Customer Id" class="form-control" required/>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="row">
+      <div class="col-md-6">
+        <div class="form-group row">
           <label class="col-sm-3 col-form-label">First Name</label>
           <div class="col-sm-9">
             <input type="text" placeholder=" Enter FirstName" class="form-control" required/>
@@ -44,20 +54,57 @@
           <label class="col-sm-3 col-form-label">Category</label>
           <div class="col-sm-9">
             <select class="form-control" required>
-              <option>Business</option>
-              <option>Personal</option>
-              <option>Economical</option>
+              <option>Tourist Visa</option>
+              <option>Work Visa</option>
+              <option>Buisness Visa</option>
+              <option>Student Visa</option>
             </select>
           </div>
         </div>
       </div>
       <div class="col-md-6">
           <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Aadhar No</label>
+          <label class="col-sm-3 col-form-label">Pan No</label>
           <div class="col-sm-9">
-            <input type="text" placeholder="Enter Aadharno" class="form-control" required />
+            <input type="text" placeholder="Enter Pan No " class="form-control" required />
           </div>
         </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label"> No of PAX.Adults</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" required/>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Child</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" required />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Infants</label>
+          <div class="col-sm-6">
+            <input type="number" class="form-control" required />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Special Remarks*</label>
+          <div class="col-sm-9">
+            <textarea></textarea>
+          </div>
         </div>
       </div>
     </div>

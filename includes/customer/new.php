@@ -41,27 +41,9 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Father's Name</label>
+          <label class="col-sm-3 col-form-label">Mobile No.</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Enter Father's Name" required/>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Mother's Name</label>
-          <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Enter Mother's Name" required/>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Phone No.</label>
-          <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Enter Phone No."  required/>
+            <input type="text" class="form-control" placeholder="Enter Mobile No."  required/>
           </div>
         </div>
       </div>
@@ -77,21 +59,17 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Category</label>
+          <label class="col-sm-3 col-form-label">Date of Birth</label>
           <div class="col-sm-9">
-            <select class="form-control" required>
-              <option>General</option>
-              <option>OBC</option>
-              <option>SC/ST</option>
-            </select>
+            <input  type="date" class="form-control" required/>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Date of Birth</label>
+          <label class="col-sm-3 col-form-label">Aadhar No.</label>
           <div class="col-sm-9">
-            <input  type="date" class="form-control" required/>
+            <input type="text" class="form-control"  placeholder="Enter twelve Digit Aadhar No."/>
           </div>
         </div>
       </div>
@@ -120,48 +98,65 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Aadhar No.</label>
-          <div class="col-sm-9">
-            <input type="text" class="form-control"  placeholder="Enter twelve Digit Aadhar No." required/>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="row">
       <div class="col-md-6">
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">PanCard No.</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control"  placeholder="Enter PanCard No." required/>
+            <input type="text" class="form-control"  placeholder="Enter PanCard No."/>
             </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Passport No.</label>
+          <label class="col-sm-3 col-form-label">Uploadpan</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Enter Passport No." required/>
+          <input type="file" class="custom-file-input form-control" id="customFile" name="filename">
+          <label class="custom-file-label" for="customFile">Choose file</label>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">PassportNo.</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control"  placeholder="Enter PassPort No."/>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">UploadPass</label>
+          <div class="col-sm-9">
+          <input type="file" class="custom-file-input form-control" id="customFile" name="filename"/>
+          <label class="custom-file-label" for="customFile">Choose file</label>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Exp.date</label>
+          <div class="col-sm-9">
+            <input type="date" name="bday" placeholder="DD/MM/YYYY" max="3000-12-31" 
+              min="1000-01-01" class="form-control"/>
           </div>
         </div>
       </div>
     </div>
     
-    <p class="card-description" align="center"> Address </p>
+   <p class="card-description" align="center"> Address </p>
     
     <div class="row">
     <div class="col-md-6">
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Country</label>
           <div class="col-sm-9">
-            <select class="form-control" required>
-            <option>India</option>
-              <option>America</option>
-              <option>Italy</option>
-              <option>Russia</option>
-              <option>Britain</option>
-            </select>
+           <input type="text" class="form-control" placeholder="Enter Country"/> 
           </div>
         </div>
       </div>
@@ -169,7 +164,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">State</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Enter State"  required/>
+            <input type="text" class="form-control" placeholder="Enter State"/>
           </div>
         </div>
       </div>
@@ -179,7 +174,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">City</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Enter City" required/>
+            <input type="text" class="form-control" placeholder="Enter City"/>
           </div>
         </div>
       </div>
@@ -187,7 +182,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Postcode</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Enter Postal Code"  required/>
+            <input type="text" class="form-control" placeholder="Enter Postal Code"/>
           </div>
         </div>
       </div>
@@ -197,7 +192,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Address 1</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Enter permanent Address" required/>
+            <input type="text" class="form-control" placeholder="Enter permanent Address"/>
           </div>
         </div>
       </div>
@@ -205,7 +200,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Address 2</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Enter Address" required/>
+            <input type="text" class="form-control" placeholder="Enter Current Address"/>
           </div>
         </div>
       </div>
