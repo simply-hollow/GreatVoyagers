@@ -42,7 +42,7 @@ include('./includes/header.php');
             <div class="col-12">
               <div class="dropdown">
                 <button class="btn btn-block btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Tour Packages
+                  Customer Request Generator
                 </button>
                 <div class="dropdown-menu btn-block color" aria-labelledby="dropdownMenu2">
                   <!-- Package Links  -->
@@ -50,8 +50,8 @@ include('./includes/header.php');
                   <a href="#" class="dropdown-item package2">Hotel Only</a>
                   <a href="#" class="dropdown-item package3">Cab only</a>
                   <a href="#" class="dropdown-item package4">Flight Only</a>
-                  <a href="#" class="dropdown-item package3">International Tour Package</a>
-                  <a href="#" class="dropdown-item package4">Domestic Tour Package</a>
+                  <a href="#" class="dropdown-item package5">International Tour Package</a>
+                  <a href="#" class="dropdown-item package6">Domestic Tour Package</a>
                 </div>
               </div>
             </div>
@@ -110,6 +110,13 @@ include('./includes/header.php');
   <script type="text/javascript">
     $(document).ready(function(){
         $(".package5").click(function(){
+            $("div.form").load("includes/taskgeneration/package-5.php");
+        });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $(".package6").click(function(){
             $("div.form").load("includes/taskgeneration/package-5.php");
         });
     });
