@@ -114,5 +114,12 @@ include('./includes/header.php');
         });
     });
   </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $(".package6").click(function(){
+            $("div.form").load("includes/taskgeneration/package-5.php");
+        });
+    });
+  </script>
 </body>
 </html>

@@ -5,16 +5,27 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Customer Id</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" placeholder="Enter Customer Id" required/>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Preferable Airline</label>
+          <div class="col-sm-9">
+            <input type="text" placeholder="Enter Preferable Airline" class="form-control" required/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group row">
           <label class="col-sm-3 col-form-label">Leaving From</label>
           <div class="col-sm-9">
-            <select class="form-control" required>
-              <option>Lucknow</option>
-              <option>Delhi</option>
-              <option>Gorakhpur</option>
-              <option>Mumbai</option>
-              <option>Nainital</option>
-              <option>Vanaras</option>
-            </select>
+            <input type="text" placeholder="Enter Leaving Location" class="form-control" required/>
           </div>
         </div>
       </div>
@@ -22,16 +33,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Going To</label>
           <div class="col-sm-9">
-             <select class="form-control" required>
-              <option>India</option>
-              <option>America</option>
-              <option>paris</option>
-              <option>Bangkok</option>
-              <option>Singapur</option>
-              <option>Indonesia</option>
-              <option>London</option>
-              <option>UK</option>
-            </select>
+             <input type="text" placeholder="Enter Drop Location" class="form-control" required/>
           </div>
         </div>
       </div>
@@ -98,9 +100,40 @@
     <div class="row">
        <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Preferable Airline</label>
+          <label class="col-sm-3 col-form-label">No. of PAX(s)</label>
           <div class="col-sm-9">
-            <input type="text" placeholder="Enter Preferable Airline" class="form-control" required/>
+            <div class="row">
+              <div class="col-sm-4"> 
+                <div class="row">
+                  <div class="col-sm-6"> 
+                    <label class="col-form-label">Adults</label>  
+                  </div>
+                  <div class="col-sm-2"> 
+                    <input type="number" class="form-control" required/>  
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="row">
+                  <div class="col-sm-6"> 
+                    <label class="col-form-label">Children</label>  
+                  </div>
+                  <div class="col-sm-2"> 
+                    <input type="number" class="form-control" required/>  
+                  </div>
+                </div>  
+              </div>
+              <div class="col-sm-3">
+                <div class="row">
+                  <div class="col-sm-6"> 
+                    <label class="col-form-label">Infants</label>  
+                  </div>
+                  <div class="col-sm-2"> 
+                    <input type="number" class="form-control" required/>  
+                  </div>
+                </div>  
+              </div>
+            </div>
           </div>
         </div>
       </div>
