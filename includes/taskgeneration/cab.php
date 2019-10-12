@@ -2,15 +2,15 @@
 <div class="card">
 <div class="card-body">
   <form class="form-sample">
-   <div class="row">
-    <div class="col-md-6">
-      <div class="form-group row">
-        <label class="col-sm-3 col-form-label">Customer Id</label>
-        <div class="col-sm-9">
-          <input type="text" class="form-control" placeholder="Enter Customer Id" required/>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Customer ID</label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" placeholder="Enter Customer Id" required/>
+          </div>
         </div>
       </div>
-    </div>
       <div class="col-md-6">
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Taxi Type</label>
@@ -63,6 +63,7 @@
         </div>
       </div>
     </div>
+
     <div class="row">
       <div class="col-md-6">
         <div class="form-group row">
@@ -107,7 +108,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Remarks (if any)</label>
           <div class="col-sm-9">
-            <input type="text" placeholder="Description" class="form-control" required/>
+            <input type="text" placeholder="Description" class="form-control"/>
           </div>
         </div>
       </div>

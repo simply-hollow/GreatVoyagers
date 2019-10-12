@@ -48,7 +48,7 @@ include('./includes/header.php');
                   <!-- Package Links  -->
                   <a href="#" class="dropdown-item package1">Visa Only</a>
                   <a href="#" class="dropdown-item package2">Hotel Only</a>
-                  <a href="#" class="dropdown-item package3">Cab only</a>
+                  <a href="#" class="dropdown-item package3">Cab Only</a>
                   <a href="#" class="dropdown-item package4">Flight Only</a>
                   <a href="#" class="dropdown-item package5">International Tour Package</a>
                   <a href="#" class="dropdown-item package6">Domestic Tour Package</a>
@@ -82,28 +82,28 @@ include('./includes/header.php');
   <script type="text/javascript">
     $(document).ready(function(){
         $(".package1").click(function(){
-            $("div.form").load("includes/taskgeneration/package-1.php");
+            $("div.form").load("includes/taskgeneration/visa.php");
         });
     });
   </script>
   <script type="text/javascript">
     $(document).ready(function(){
         $(".package2").click(function(){
-            $("div.form").load("includes/taskgeneration/package-2.php");
+            $("div.form").load("includes/taskgeneration/hotel.php");
         });
     });
   </script>
   <script type="text/javascript">
     $(document).ready(function(){
         $(".package3").click(function(){
-            $("div.form").load("includes/taskgeneration/package-3.php");
+            $("div.form").load("includes/taskgeneration/cab.php");
         });
     });
   </script>
   <script type="text/javascript">
     $(document).ready(function(){
         $(".package4").click(function(){
-            $("div.form").load("includes/taskgeneration/package-4.php");
+            $("div.form").load("includes/taskgeneration/flight.php");
         });
     });
   </script>

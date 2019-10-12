@@ -87,13 +87,13 @@
           <div class="col-sm-3">
             <div class="form-check form-check-info">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="Female" id="membershipRadios1" value="Female" > Female</label>
+                <input type="radio" class="form-check-input" name="Female" id="membershipRadios1" value="Female" required> Female</label>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="form-check form-check-info">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="Others" id="membershipRadios2" value="Others"> Others </label>
+                <input type="radio" class="form-check-input" name="Others" id="membershipRadios2" value="Others" required> Others </label>
             </div>
           </div>
         </div>
@@ -110,7 +110,7 @@
       </div>
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Uploadpan</label>
+          <label class="col-sm-3 col-form-label">Upload Pan</label>
           <div class="col-sm-9">
           <input type="file" class="custom-file-input form-control" id="customFile" name="filename">
           <label class="custom-file-label" for="customFile">Choose file</label>
@@ -129,7 +129,7 @@
       </div>
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">UploadPass</label>
+          <label class="col-sm-3 col-form-label">Upload Passport</label>
           <div class="col-sm-9">
           <input type="file" class="custom-file-input form-control" id="customFile" name="filename"/>
           <label class="custom-file-label" for="customFile">Choose file</label>
@@ -143,7 +143,7 @@
           <label class="col-sm-3 col-form-label">Exp.date</label>
           <div class="col-sm-9">
             <input type="date" name="bday" placeholder="DD/MM/YYYY" max="3000-12-31" 
-              min="1000-01-01" class="form-control"/>
+              min="1000-01-01" class="form-control" required/>
           </div>
         </div>
       </div>
@@ -192,7 +192,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Address 1</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Enter permanent Address"/>
+            <input type="text" class="form-control" placeholder="Enter Address"/>
           </div>
         </div>
       </div>
@@ -200,7 +200,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Address 2</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Enter Current Address"/>
+            <input type="text" class="form-control" placeholder="Enter Address"/>
           </div>
         </div>
       </div>
