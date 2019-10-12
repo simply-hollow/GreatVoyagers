@@ -5,9 +5,13 @@
         <thead>
           <tr>
             <th> # </th>
-            <th> First name </th>
+            <th> Employee name </th>
+            <th> Employee Id </th>
+            <th> Customer name </th>
+            <th> Customer Id </th>
             <th> Progress </th>
             <th> Amount </th>
+            <th> Package </th>
             <th> Deadline </th>
           </tr>
         </thead>
