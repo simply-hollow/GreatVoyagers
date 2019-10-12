@@ -29,7 +29,7 @@ include('./includes/header.php');
           <h3 class="page-title">
             <span class="page-title-icon bg-gradient-primary text-white mr-2">
               <i class="mdi mdi-format-list-bulleted"></i>
-            </span> Task Generation </h3>
+            </span> Customer Request Generator </h3>
             <nav aria-label="breadcrumb">
               <ul class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page">
@@ -50,6 +50,8 @@ include('./includes/header.php');
                   <a href="#" class="dropdown-item package2">Hotel Only</a>
                   <a href="#" class="dropdown-item package3">Cab only</a>
                   <a href="#" class="dropdown-item package4">Flight Only</a>
+                  <a href="#" class="dropdown-item package3">International Tour Package</a>
+                  <a href="#" class="dropdown-item package4">Domestic Tour Package</a>
                 </div>
               </div>
             </div>
