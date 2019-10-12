@@ -37,6 +37,45 @@
       </div>
     </div>
     <div class="row">
+    <div class="col-md-6">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Tour's Type</label>
+          <div class="col-sm-4">
+            <div class="form-check form-check-info">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="Tourtype" id="membershipRadios1" value="Domestic" required> Domestic </label>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-check form-check-info">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="Tourtype" id="membershipRadios1" value="International" > International</label>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+        <div class="col-md-6">
+        <div class="form-group row">
+          <label class="col-sm-3 col-form-label">Journey's Type</label>
+          <div class="col-sm-4">
+            <div class="form-check form-check-info">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="journey" id="membershipRadios1" value="One Way" required> One way </label>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-check form-check-info">
+              <label class="form-check-label">
+                <input type="radio" class="form-check-input" name="journey" id="membershipRadios1" value="Two Way" > Two Way</label>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+         </div>
+
+    <div class="row">
       <div class="col-md-6">
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Departure</label>
@@ -57,58 +96,19 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-6">
+       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Adults</label>
+          <label class="col-sm-3 col-form-label">Preferable Airline</label>
           <div class="col-sm-9">
-            <select class="form-control" required>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-            </select>
+            <input type="text" placeholder="Enter Preferable Airline" class="form-control" required/>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Children</label>
+          <label class="col-sm-3 col-form-label">Remarks (if any)</label>
           <div class="col-sm-9">
-            <select name="night" class="form-control" required>
-             <option>1</option>
-             <option>2</option>
-             <option>3</option>
-             <option>4</option>
-             <option>5</option>
-           </select>
-      </div>
-      </div>
-    </div>
-  </div>
-      
-    <div class="row">
-      <div class="col-md-6">
-        <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Preferrable Airline</label>
-          <div class="col-sm-9">
-            <select class="form-control" required>
-              <option>Air India</option>
-              <option>Indigo Airlines</option>
-              <option>Jet Airways</option>
-              <option>Lufhansa Airlines</option>
-              <option>Ethiad Airways</option>
-              <option>Spice Jet Airways</option>
-              <option>Qatar Airways</option>
-              <option>Emirates Airways</option>
-            </select> 
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="form-group row">
-          <label class="col-sm-3 col-form-label">State</label>
-          <div class="col-sm-9">
-            <input type="text" placeholder="Enter State" class="form-control" required/>
+            <input type="text" placeholder="Description" class="form-control" required/>
           </div>
         </div>
       </div>

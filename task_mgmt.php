@@ -38,12 +38,18 @@ include('./includes/header.php');
             </ul>
           </nav>
         </div>
+        
         <div class="row">
           <?php
-              include('./includes/taskmgmt/table.php');
+              include('./includes/taskmgmt/assign_task.php');
           ?>
         </div>
-      </div>
+          <center>
+          <button type="submit" class="btn btn-gradient-success btn-lg mr-2" name="assignment">View All Assignments</button>
+       </center>    
+        
+    
+        </div>
       <!-- content-wrapper ends -->
 
       <!-- partial:partials/_footer.html -->
@@ -62,5 +68,7 @@ include('./includes/header.php');
   <?php
     include('./includes/script.php');
   ?>
+ 
+
 </body>
 </html>
