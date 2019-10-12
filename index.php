@@ -36,7 +36,7 @@ include('./includes/header.php');
               </li>
             </ul>
           </nav>
-        </div>
+        </div> <!--
         <div class="row">
           <div class="col-md-6 stretch-card grid-margin">
             <div class="card bg-gradient-info card-img-holder text-white">
@@ -61,7 +61,7 @@ include('./includes/header.php');
               </div>
             </div>
           </div>
-        </div>
+        </div>  -->
         <?php
 
           include('./includes/dashboard-body/recents-task.php');

@@ -2,7 +2,7 @@
 <div class="card">
 <div class="card-body">
   <center>
-    <img src="includes/blank1.png" alt="blank profile image" style="height: 50vh; width: 25vw;">
+    <img src="includes/blank1.png" alt="blank profile image" style="height: 35vh; width: 18vw;">
   </center>
   <br>
   <form class="form-sample">
@@ -67,7 +67,7 @@
       </div>
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">Email Id</label>
+          <label class="col-sm-3 col-form-label">Email-Id</label>
           <div class="col-sm-9">
             <input type="Email" class="form-control" />
           </div>
@@ -101,15 +101,15 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label">Gender</label>
           <div class="col-sm-4">
-            <div class="form-check">
+            <div class="form-check form-check-info">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios1" value="" checked> Male </label>
+                <input type="radio" class="form-check-input" name="gender" id="membershipRadios1" value="Male" checked> Male </label>
             </div>
           </div>
           <div class="col-sm-5">
-            <div class="form-check">
+            <div class="form-check form-check-info">
               <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="membershipRadios" id="membershipRadios2" value="option2"> Female </label>
+                <input type="radio" class="form-check-input" name="gender" id="membershipRadios2" value="Female"> Female </label>
             </div>
           </div>
         </div>
@@ -141,7 +141,7 @@
         </div>
       </div>
     </div>
-    <p class="card-description"> Address </p>
+    <p class="card-description" align="center"> Address </p>
     
     <div class="row">
     <div class="col-md-6">

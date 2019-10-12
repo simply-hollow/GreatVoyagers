@@ -5,10 +5,12 @@
         <thead>
           <tr>
             <th> # </th>
-            <th> First name </th>
-            <th> Progress </th>
-            <th> Amount </th>
-            <th> Deadline </th>
+            <th> Customer name </th>
+            <th> Customer Id </th>
+            <th> Handled by </th>
+            <th> Package Type </th>
+            <th> Date of travel </th>
+            <th> Remarks(if any) </th>
           </tr>
         </thead>
         <tbody>
