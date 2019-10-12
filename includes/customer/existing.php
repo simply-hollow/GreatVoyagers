@@ -5,9 +5,9 @@
     <div class="row">
       <div class="col-md-6">
         <div class="form-group row">
-          <label class="col-sm-3 col-form-label">First Name</label>
+          <label class="col-sm-3 col-form-label">Customer ID</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control"  placeholder="Enter First Name" required/>
           </div>
         </div>
       </div>
@@ -15,7 +15,7 @@
         <div class="form-group row">
           <label class="col-sm-3 col-form-label"> Aadhar No.</label>
           <div class="col-sm-9">
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control"  placeholder="Enter twelve Digit Aadhar No." required/>
           </div>
         </div>
       </div>

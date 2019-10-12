@@ -62,7 +62,7 @@ include('./includes/header.php');
             </div>
           </div>
         </div>
-        <div class="row form">
+        <div class="row newform">
          
         </div>
       </div>
@@ -89,17 +89,24 @@ include('./includes/header.php');
   <script type="text/javascript">
     $(document).ready(function(){
         $(".new-link").click(function(){
-            $("div.form").load("includes/customer/new.php");
+            $("div.newform").load("includes/customer/new.php");
         });
     });
   </script>  
   <script type="text/javascript">
     $(document).ready(function(){
         $(".existing-link").click(function(){
-            $("div.form").load("includes/customer/existing.php");
+            $("div.newform").load("includes/customer/existing.php");
         });
     });
   </script>  
   <!-- script ends -->
+    <script>
+// Add the following code if you want the name of the file appear on select
+  $(".custom-file-input").on("change", function() {
+    var fileName = $(this).val().split("\\").pop();
+    $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+  });
+  </script>
 </body>
 </html>
