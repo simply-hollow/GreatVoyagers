@@ -1,10 +1,10 @@
 <!-- partial:partials/_navbar.html -->
 <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
   <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-    <a class="navbar-brand brand-logo" href="index.php">
+    <a class="navbar-brand brand-logo" href="home.php">
       <img src="./includes/logo.jpeg" alt="logo" style="width: 10vw; height: 5vw;" />
     </a>
-    <a class="navbar-brand brand-logo-mini" href="index.php">
+    <a class="navbar-brand brand-logo-mini" href="home.php">
       <img src="./includes/mini-logo.jpg" alt="logo" style="width: 5vw; height: 3vw;" />
     </a>
   </div>
