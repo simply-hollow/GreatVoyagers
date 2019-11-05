@@ -42,7 +42,7 @@ include('./includes/header.php');
           <div class="col-md-6 stretch-card grid-margin">
             <div class="card bg-gradient-info card-img-holder text-white">
               <div class="card-body">
-                <a href="#" class="new-link">
+                <a href="new-customer.php" class="new-link">
                     <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
                   </a>
                 <h4 class="font-weight-normal mb-3">New Customer<i class="mdi mdi-chart-line mdi-24px float-right"></i>
@@ -85,14 +85,7 @@ include('./includes/header.php');
     include('./includes/script.php');
 
   ?>
-  <!-- Script for customer forms -->
-  <script type="text/javascript">
-    $(document).ready(function(){
-        $(".new-link").click(function(){
-            $("div.newform").load("includes/customer/new.php");
-        });
-    });
-  </script>  
+  <!-- Script for customer forms --> 
   <script type="text/javascript">
     $(document).ready(function(){
         $(".existing-link").click(function(){
