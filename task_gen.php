@@ -29,7 +29,7 @@ include('./includes/header.php');
           <h3 class="page-title">
             <span class="page-title-icon bg-gradient-primary text-white mr-2">
               <i class="mdi mdi-format-list-bulleted"></i>
-            </span> Customer Request Generator </h3>
+            </span> Task Generation </h3>
             <nav aria-label="breadcrumb">
               <ul class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page">
@@ -44,14 +44,14 @@ include('./includes/header.php');
                 <button class="btn btn-block btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Customer Request Generator
                 </button>
-                <div class="dropdown-menu btn-block color" aria-labelledby="dropdownMenu2">
+                <div class="dropdown-menu btn-block" aria-labelledby="dropdownMenu2">
                   <!-- Package Links  -->
-                  <a href="#" class="dropdown-item package1">Visa Only</a>
-                  <a href="#" class="dropdown-item package2">Hotel Only</a>
-                  <a href="#" class="dropdown-item package3">Cab Only</a>
-                  <a href="#" class="dropdown-item package4">Flight Only</a>
-                  <a href="#" class="dropdown-item package5">International Tour Package</a>
-                  <a href="#" class="dropdown-item package6">Domestic Tour Package</a>
+                  <button class="dropdown-item package1">Visa Only</button>
+                  <button class="dropdown-item package2">Hotel Only</button>
+                  <button class="dropdown-item package3">Cab Only</button>
+                  <button class="dropdown-item package4">Flight Only</button>
+                  <button class="dropdown-item package5">International Tour Package</button>
+                  <button class="dropdown-item package6">Domestic Tour Package</button>
                 </div>
               </div>
             </div>
