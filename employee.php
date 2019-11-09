@@ -110,26 +110,6 @@ include('./includes/header.php');
             </div>
           </div>
         </div>
-        <div class="row validate">
-          <div class="col-md-12">
-            <?php
-                if(isset($_POST['submit']))
-                {
-                  if($result1 && $result2)
-                    echo"<center><h1><p>Employee data is submitted successfully.</p></h1></center>";
-                  else
-                    echo"<center><h1><p>Employee data is not submitted.</p></h1></center>";
-                }
-                
-                if(isset($_POST['delete'])){
-                    if($res1 && $res2)
-                      echo"<center><h1><p>Employee data deleted successfully.</p></h1></center>";
-                    else
-                      echo"<center><h1><p>Employee data not deleted.</p></h1></center>";
-                }
-            ?>
-          </div>
-        </div>
         <div class="row newform" style="display: none;">
           <div class="col-12">
             <div class="card">
