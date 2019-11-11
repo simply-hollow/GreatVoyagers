@@ -21,9 +21,9 @@
                     </div>
                   </div>
                   <center>
-                    <input type="submit" name="fetch" value="Get Details" class="btn btn-gradient-success btn-lg mr-2">
+                    <input type="submit" name="fetch" id="get" value="Get Details" class="btn btn-gradient-success btn-lg mr-2">
                     <button type="reset" class="btn btn-gradient-dark btn-lg mr-2" >Reset</button>
-                    <input type="submit" name="delete" value="Delete" class="btn btn-gradient-success btn-lg mr-2">
+                    <input type="submit" name="delete" value="Delete" class="btn btn-gradient-success btn-lg mr-2" id="del">
                   </center>
                 </form>
               </div>

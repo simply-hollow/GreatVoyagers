@@ -5,6 +5,7 @@
   $result2=FALSE;
   $res1=FALSE;
   $res2=FALSE;
+  global $result;
   if (isset($_POST['submit'])) {
     session_start();
 
@@ -44,8 +45,18 @@
     $res1=mysqli_query($con, $query1);
     $res2=mysqli_query($con, $query2);
   }
+
+  if(isset($_POST['fetch'])){
+
+    $id=mysqli_real_escape_string($con, $_POST['user']);
+    $aadhar=mysqli_real_escape_string($con, $_POST['adhar']);
+
+    $query= "SELECT * FROM employee WHERE email='$id' AND aadhar='$aadhar'";
+    $result = mysqli_query($con, $query);
+  }
   mysqli_close($con);
 ?>
+
 <?php
 
 include('./includes/header.php');
@@ -77,7 +88,8 @@ include('./includes/header.php');
           <h3 class="page-title">
             <span class="page-title-icon bg-gradient-primary text-white mr-2">
               <i class="mdi mdi-library-plus"></i>
-            </span> Employee Registration </h3>
+            </span> Employee Registration 
+          </h3>
           <nav aria-label="breadcrumb">
             <ul class="breadcrumb">
               <li class="breadcrumb-item active" aria-current="page">
@@ -114,36 +126,53 @@ include('./includes/header.php');
           <?php
             include('includes/employee/new.php');
           ?>
-          <div class="col-md-12">
-            <?php
-                if(isset($_POST['submit']))
-                {
-                  if($result1 && $result2)
-                    echo "<script type='text/javascript'>alert('Congratulations! Data submitted successfully')</script>";
-                  else
-                    echo "<script type='text/javascript'>alert('Oops..! Seems that data submission is unsuccessfull')</script>";
-                  header('location:employee.php');
-                }
-  
-            ?>
-          </div>
         </div>
         <div class="row existingform" style="display: none;">
           <?php
             include('includes/employee/existing.php');
           ?>
+        </div>
+        <div class="row disp1">
           <div class="col-md-12">
-            <?php
-            
-                if(isset($_POST['delete'])){
-                    if($res1 && $res2)
-                      echo "<script type='text/javascript'>alert('Employeee removed successfully')</script>";
+              <?php
+                  if(isset($_POST['submit']))
+                  {
+                    if($result1 && $result2)
+                      echo "<h1 style='color:green;'><center>Congratulations..,".$fname."'s data submitted successfully.</center></h1>";
                     else
-                      echo "<script type='text/javascript'>alert('Employee doesn't exists.)</script>";
-                    header('location:employee.php');
-                }
-            ?>
-          </div>  
+                      echo "<h1 style='color:red;'><center>Oops..! Seems that data submission is unsuccessfull.</center></h1>";
+                  }
+    
+              ?>
+          </div>
+        </div>
+        <div class="row disp2">
+          <div class="col-md-12">
+              <?php
+                  if(isset($_POST['delete']))
+                  {
+                    if($res1 && $res2)
+                      echo "<h1 style='color:green;'><center>Employee removed successfully.</center></h1>";
+                    else
+                      echo "<h1 style='color:red;'><center>Employee doesn't exists.</center></h1>";
+                  }
+    
+              ?>
+          </div>
+        </div>
+        <div class="row details">
+          <div class="col-md-12 grid-margin stretch-card">
+          <?php
+              if(isset($_POST['fetch'])){
+
+                if(mysqli_num_rows($result)==0)
+                  echo"<h1 style='color:red;'><center>No such emloyee exists to display. Kindly check the details.</center></h1>";
+                else
+                  include('includes/employee/fetchschema.php');
+              }
+              
+          ?>
+          </div>
         </div>
       </div>
       <!-- content-wrapper ends -->
@@ -164,24 +193,55 @@ include('./includes/header.php');
   <?php
     include('./includes/script.php');
   ?>
+  
   <!-- Script for employee forms -->  
   <script type="text/javascript">
     $(document).ready(function(){
         $(".existing-link").click(function(){
             $("div.newform").hide(500);
+            $("div.disp1").hide(500);
+            $("div.disp2").hide(500);
+            $("div.details").hide(500);
             $("div.existingform").show(500);
         });
     });
   </script>  
-  <!-- script ends -->
   <script type="text/javascript">
     $(document).ready(function(){
         $(".new-link").click(function(){
             $("div.existingform").hide(500);
+            $("div.disp1").hide(500);
+            $("div.disp2").hide(500);
+            $("div.details").hide(500);
             $("div.newform").show(500);
         });
     });
   </script>  
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $("#sub").click(function(){
+            $("div.disp1").show(500);
+        });
+    });
+  </script>  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $("#del").click(function(){
+            $("div.disp2").show(500);
+        });
+    });
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+        $("#get").click(function(){
+          $("div.existingform").hide(500);
+            $("div.details").show(500);
+        });
+    });
+  </script>
+  <!-- script ends -->
+
   <script>
 // Add the following code if you want the name of the file appear on select
   $(".custom-file-input").on("change", function() {

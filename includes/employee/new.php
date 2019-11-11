@@ -201,7 +201,7 @@
                       </div>
                   </div>
                     <center>
-                      <input type="submit" name="submit" class="btn btn-gradient-success btn-lg mr-2">
+                      <input type="submit" id="sub" name="submit" class="btn btn-gradient-success btn-lg mr-2">
                       <button type="reset" class="btn btn-gradient-dark btn-lg mr-2" >Reset</button>
                     </center>
                 </form>
