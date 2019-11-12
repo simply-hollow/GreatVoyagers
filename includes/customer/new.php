@@ -140,8 +140,7 @@
                       <div class="form-group row">
                         <label class="col-sm-3 col-form-label">Exp.date</label>
                         <div class="col-sm-9">
-                          <input type="date" name="bday" name="exp" placeholder="DD/MM/YYYY" max="3000-12-31" 
-                            min="1000-01-01" class="form-control" required/>
+                          <input type="date" name="exp" placeholder="DD/MM/YYYY" class="form-control" required/>
                         </div>
                       </div>
                     </div>

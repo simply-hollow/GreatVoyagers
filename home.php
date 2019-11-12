@@ -27,7 +27,7 @@ include('./includes/header.php');
   <!-- partial top nav-bar -->
   <?php
 
-    include('./includes/nav.php');
+    include('./includes/nav-dashboard.php');
 
   ?>
   <!-- partial -->

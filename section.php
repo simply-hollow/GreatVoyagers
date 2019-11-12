@@ -56,14 +56,21 @@ include('./includes/header.php');
                 <a href="#" class="close-link">
                     <img src="assets/images/dashboard/circle.svg" class="card-img-absolute" alt="circle-image" />
                   </a>
-                <h4 class="font-weight-normal mb-3">close<i class="mdi mdi-diamond mdi-24px float-right"></i>
+                <h4 class="font-weight-normal mb-3">Closed<i class="mdi mdi-diamond mdi-24px float-right"></i>
                 </h4>
               </div>
             </div>
           </div>
         </div>
-        <div class="row tables">
-          
+        <div class="row upcoming" style="display: none;">
+          <div class="col-lg-12 col-md-12 grid-margin stretch-card">
+            <?php include('includes/section/upcoming.php'); ?>
+          </div>
+        </div>
+        <div class="row close" style="display: none;">
+          <div class="col-lg-12 col-md-12 grid-margin stretch-card">
+            <?php include('includes/section/close.php'); ?>
+          </div>
         </div>
       </div>
       <!-- content-wrapper ends -->
@@ -87,15 +94,17 @@ include('./includes/header.php');
   <!-- Script for employee forms -->
   <script type="text/javascript">
     $(document).ready(function(){
-        $(".upcoming-link").click(function(){
-            $("div.tables").load("includes/section/upcoming.php");
+        $(".close-link").click(function(){
+          $("div.upcoming").hide();
+            $("div.close").toggle("slow");
         });
     });
   </script>  
   <script type="text/javascript">
     $(document).ready(function(){
-        $(".close-link").click(function(){
-            $("div.tables").load("includes/section/close.php");
+        $(".upcoming-link").click(function(){
+           $("div.close").hide();
+            $("div.upcoming").toggle("slow");
         });
     });
   </script>  

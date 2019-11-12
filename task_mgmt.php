@@ -1,5 +1,31 @@
 <?php
 
+    $con=mysqli_connect("localhost", "root", "", "GreatVoyagers");
+
+    if(isset($_POST['submit'])){
+      //session_start();
+
+      $emp=mysqli_real_escape_string($con, $_POST['emp']);
+      $cust=mysqli_real_escape_string($con, $_POST['cust']);
+      $task=mysqli_real_escape_string($con, $_POST['task']);
+      $deadline=mysqli_real_escape_string($con, $_POST['deadline']);
+
+      $query="INSERT INTO taskmgmt(emp_id, cust_id, task_type, deadline) VALUES('$emp', '$cust', '$task', '$deadline')";
+
+      $result=mysqli_query($con, $query);
+      echo $result;
+      if($result)
+        echo "<script type='text/javascript'>alert('Task assigned successfully.'); window.location='task_mgmt.php';</script>";
+      else
+        echo "<script type='text/javascript'>alert('Task could not be successfully assigned.'); window.location='task_mgmt.php';</script>";
+    }
+
+    mysqli_close($con);
+
+?>
+
+<?php
+
 include('./includes/header.php');
 
 ?>

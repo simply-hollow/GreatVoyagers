@@ -23,13 +23,13 @@
         <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
           <div class="nav-profile-img">
             <img src="includes/blank1.png" alt="image">
-        <!--    <span class="availability-status online"></span>  -->
+            <span class="availability-status online"></span>
           </div>
           <div class="nav-profile-text">
             <p class="mb-1 text-black">
               <?php
 
-                  include('login.php'); 
+                  //include('login.php'); 
                   echo $_SESSION['NAME'];
 
               ?>
@@ -41,7 +41,7 @@
         <a class="nav-link" href="#">
           <i class="mdi mdi-format-line-spacing"></i>
         </a>
-      </li> 
+      </li>
     </ul>
     <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
       <span class="mdi mdi-menu"></span>
